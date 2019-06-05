@@ -3,3 +3,8 @@ Paraview : https://www.paraview.org/download/
 Visual Studio (Community): https://visualstudio.microsoft.com/downloads/
 
 Unity Hub (Personal): https://store.unity.com/
+
+Only required with a head mounted display
+Steam : https://store.steampowered.com/about/
+Steam-VR : https://store.steampowered.com/app/250820/SteamVR/
+Windows Mixed Reality for SteamVR : https://store.steampowered.com/app/719950/Windows_Mixed_Reality_for_SteamVR/
