@@ -1,0 +1,5 @@
+Paraview : https://www.paraview.org/download/
+
+Visual Studio (Community): https://visualstudio.microsoft.com/downloads/
+
+Unity Hub (Personal): https://store.unity.com/

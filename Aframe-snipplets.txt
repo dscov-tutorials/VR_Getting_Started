@@ -1,0 +1,31 @@
+
+Another way to add a box
+<a-entity geometry="primitive : box;" position="-1 1.5 -3" rotation="0 45 0" color="#4CC3D9" shadow></a-entity>
+
+Adding scripts for Superhands
+<script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v3.12.4/dist/aframe-extras.min.js"></script>
+<script src="https://unpkg.com/super-hands@2.1.0/dist/super-hands.min.js"></script>
+
+Adding hand controls
+<a-entity sphere-collider="objects: a-box" super-hands hand-controls="right"></a-entity>
+
+Making the box interactable
+<a-box hoverable grabbable stretchable draggable dropppable position="0 0 -1" rotation="0 45 0" color="#4CC3D9" shadow></a-box>
+
+Adding our data to the assets
+<a-assets>
+   <a-asset-item id="paraview_test" src="https://cdn.glitch.com/04c585d0-a754-45fd-8bc8-9caf3361dab1%2Fparaview_test.gltf"></a-asset-item>
+</a-assets>
+
+Adding our data to the scene as entity
+<a-entity gltf-model="#paraview_test"></a-entity>
+
+Adjusting position and scale
+<a-entity gltf-model="#paraview_test" rotation="-90 0 0" scale="0.1 0.1 0.1" position="0 1.2 -0.5"></a-entity>
+
+Adding interaction
+<a-entity sphere-collider="objects: .collider;" super-hands hand-controls="right"></a-entity>
+<a-entity class="collider" hoverable grabbable stretchable draggable dropppable p gltf-model="#paraview_test" rotation="-90 0 0" scale="0.1 0.1 0.1w" position="0 1.2 -0.5"></a-entity>
+
+Adding an animation 
+animation="property: rotation; to: -90 360 0; loop: true; dur: 10000; easing: linear" 
